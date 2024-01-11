@@ -27,6 +27,7 @@ module.exports = defineConfig?.({
   ],
   plugins: ['prettier', 'import', '@typescript-eslint', 'spellcheck', 'simple-import-sort'],
   rules: {
+    'linebreak-style': ['off', 'windows'],
     'vue/script-setup-uses-vars': 'error',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
